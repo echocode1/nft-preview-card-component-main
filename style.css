@@ -53,12 +53,13 @@ body{
     opacity: 1%;
     display: flex;
     justify-content: center;
+    transition: all .2s ease-in-out;
 }
 #overlay:hover,
 #overlay:active{
     opacity: 50%;
 }
-#image, h3, #card-author,#overlay{
+#image, h3, #card-author{
     font-size: 1.5rem;
     font-weight: 600;
     cursor: pointer;
